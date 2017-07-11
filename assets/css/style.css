@@ -1,0 +1,38 @@
+body { background: gray !important; }
+
+
+#header {
+	background-color: orange !important;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+#md{
+	border-right: 5px solid orange;
+	width: 205px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.jumbotron{
+	text-align: center;
+	font-size: 300%;
+}
+
+#rowOne {
+	padding:15px;
+	margin: 0px;
+	background-color: pink;
+	width:50%;
+	height: 30%;
+}
+
+
+#randomTargetNumber {
+
+	font-size: 400%;
+	color: black;
+}

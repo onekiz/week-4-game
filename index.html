@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>
+		Crystal Colleter Game
+	</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+
+
+<body>
+
+
+<div class = "container"> 
+	
+	<div class= "jumbotron" id = "header"> Cyrstal Collector! </div>
+
+	<div class = "row" id="rowOne"> 
+			<h3> You will be given a random number at the start of the game.</h3>
+			<h3> There are four cyrstals below. By clicking on a crystal you will add specific amount of points to your total score.</h3>
+			<h3> You win the game by matching your score to random number, you lose the game if your total score goes above the random number</h3>
+			<h3> The value of the crystal is hidden from you until you click on it.</h3>
+			<h3> Each time when the game starts, the game will change the values of the crystals.</h3>
+	</div>
+
+	
+	<div class = "row"> 
+		<div class ="col-md-3" id = "randomTargetNumber"> <h3>RANDOM NUMBER TO REACH</h3></div>
+		<div class = "col-md-3 display"> <h3>Wins = <span id = "Winz"> 0</span></h3> <h3>Losses = <span id = "Loze"> 0</span></h3></div>
+		<div class ="col-md-3"></div> 
+		<div class ="col-md-3"></div>
+	</div>
+
+	<div class = "row">
+		<div class ="col-md-2" id ="md"> <img id = "crys1" src ="assets/images/crys1.jpg"></div>
+		<div class ="col-md-2" id ="md"> <img id = "crys2" src ="assets/images/crys2.jpg"></div>
+		<div class ="col-md-2" id ="md"> <img id = "crys3" src ="assets/images/crys3.jpg"></div>
+		<div class ="col-md-2" id ="md"> <img id = "crys4" src ="assets/images/crys4.png"></div>
+	</div>
+
+	your total score is: <h3 id = "total"> 0 </h3>
+
+</div>
+
+
+<script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
